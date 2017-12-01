@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>W4063学习小组</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		html,body{width: 100%;height: 100%;}
+		.infinite{		
+			/*动画循环次数             无限循环*/
+			animation-iteration-count: infinite;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="title">
+			<p>W4063班</p><p>（ 四喜丸子 ）</p><p>学习小组</p>
+		</div>
+		<div class="introduce">
+			<p class="infinite">丸&nbsp;&nbsp;子&nbsp;&nbsp;作&nbsp;&nbsp;品&nbsp;!&nbsp;!&nbsp;!</p>
+		</div>
+		<div class="photo-box">
+			<div class="box photo1">
+				<div class="photo">
+					<img src="images/photo.png">
+				</div>
+				<div class="photo-text">
+					<span>作者:朱家兴</span>
+					<span>作品链接:</span>
+					<a class="dz" href="https://zhujiaxing.github.io/wcj1999/">https://zhujiaxing.github.io/wcj1999/</a>
+					<span>作品链接(二维码格式):<a id="Z" href="javascript:;" class="ewm">点我获取二维码</a></span>
+					<span>联系QQ:990178190</span>
+				</div>
+			</div>
+			<div class="box photo2">
+				<div class="photo">
+					<img src="images/photo1.png">
+				</div>
+				<div class="photo-text">
+					<span>作者:董琦</span>
+					<span>作品链接:</span>
+					<a class="dz" href="https://itqdyy.github.io/dongqi/ ">https://itqdyy.github.io/dongqi/ </a>
+					<span>作品链接(二维码格式):<a id="D" href="#" class="ewm">点我获取二维码</a></span>
+					<span>联系QQ:1924546938</span>
+				</div>
+			</div>
+			<div class="box photo3">
+				<div class="photo">
+					<img src="images/photo2.png">
+				</div>
+				<div class="photo-text">
+					<span>作者:陶佑铭</span>
+					<span>作品链接:</span>
+					<a class="dz" href="https://b.eqxiu.com/s/ABys4D1A ">https://b.eqxiu.com/s/ABys4D1A </a>
+					<span>作品链接(二维码格式):<a id="T" href="#" class="ewm">点我获取二维码</a></span>
+					<span>联系QQ:1366241620</span>
+				</div>
+			</div>
+			<div class="box photo4">
+				<div class="photo">
+					<img src="images/photo3.jpg">
+				</div>
+				<div class="photo-text">
+					<span>作者:王玉茹</span>
+					<span>作品链接:</span>
+					<a class="dz" href="http://a3.rabbitpre.com/m/NzqAvaQ ">http://a3.rabbitpre.com/m/NzqAvaQ </a>
+					<span>作品链接(二维码格式):<a id="W" href="#" class="ewm">点我获取二维码</a></span>
+					<span>联系QQ:1664852659</span>
+				</div>
+			</div>
+		</div>
+		<img id="zjx" src="images/zjx.png">
+		<img id="dq" src="images/dq.png">
+		<img id="tym" src="images/tym.png">
+		<img id="wyr" src="images/wyr.png">
+	</div>
+</body>	
+<script type="text/javascript">
+	window.onload=function(){
+		var oZ = document.getElementById("Z");
+		var oD = document.getElementById("D");
+		var oT = document.getElementById("T");
+		var oW = document.getElementById("W");
+		var oZjx = document.getElementById("zjx");
+		var oDq = document.getElementById("dq");
+		var oTym = document.getElementById("tym");
+		var oWyr = document.getElementById("wyr");
+		oZ.onclick=function(){
+		     if (oZjx.style.display == "block"){
+		             oZjx.style.display = "none";
+		   }else {
+		           oZjx.style.display = "block";
+		 }
+		}
+		oD.onclick=function(){
+		     if (oDq.style.display == "block"){
+		             oDq.style.display = "none";
+		   }else {
+		           oDq.style.display = "block";
+		 }
+		}
+		oT.onclick=function(){
+		     if (oTym.style.display == "block"){
+		             oTym.style.display = "none";
+		   }else {
+		           oTym.style.display = "block";
+		 }
+		}
+		oW.onclick=function(){
+		     if (oWyr.style.display == "block"){
+		             oWyr.style.display = "none";
+		   }else {
+		           oWyr.style.display = "block";
+		 }
+		}
+	};
+</script>
+</html>
